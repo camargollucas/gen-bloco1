@@ -30,33 +30,30 @@ public class Atividade6 {
 				
 		switch(cargo) {
 		case 1:
-			reajuste = salario + ((salario * 10)/100) ;
+			reajuste = salario + (salario * 10/100) ;
 		System.out.printf("Salário pós reajuste: R$ %.2f" ,reajuste);
 		break;
 		case 2:
-			reajuste = salario + ((salario * 7)/100) ;
+			reajuste = salario + (salario * 7/100) ;
 		System.out.printf("Salário pós reajuste: R$ %.2f" ,reajuste);
 		break;
 		case 3:
-			reajuste = salario + ((salario * 9)/100) ;
+			reajuste = salario + (salario * 9/100) ;
 		System.out.printf("Salário pós reajuste: R$ %.2f" ,reajuste);
 		break;
 		case 4:
-			reajuste = salario + ((salario * 6)/100) ;
+			reajuste = salario + (salario * 6/100) ;
 		System.out.printf("Salário pós reajuste: R$ %.2f" ,reajuste);
 		break;
 		case 5:
-			reajuste = salario + ((salario * 5)/100) ;
+			reajuste = salario + (salario * 5/100) ;
 		System.out.printf("Salário pós reajuste: R$ %.2f" ,reajuste);
 		break;
 		case 6:
-			reajuste = salario + ((salario * 8)/100) ;
+			reajuste = salario + (salario * 8/100) ;
 		System.out.printf("Salário pós reajuste: R$ %.2f" ,reajuste);
 		break;
-		
-		
-		
-		
+			
 		}
 		
 	}
